@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Shank</string>
+    <string-array name="vehicle_type_array">
+        <item>TWO-WHEELER</item>
+        <item>THREE-WHEELER</item>
+        <item>FOUR-WHEELER</item>
+    </string-array>
+
+    <string-array name="bank_name_array">
+        <item>SBI</item>
+        <item>PNB</item>
+        <item>HDFC Bank</item>
+        <item>UCO Bank</item>
+        <item>AXIS Bank</item>
+        <item>UNION Bank</item>
+    </string-array>
+
+    <string-array name="company_type_array">
+        <item>Proprietor/Individual</item>
+        <item>Partnership</item>
+        <item>LLP</item>
+        <item>Private Limited Company</item>
+        <item>Limited Company</item>
+    </string-array>
+
+    <string-array name="role_array">
+        <item>Role 1</item>
+        <item>Role 2</item>
+        <item>Role 3</item>
+        <item>Role 4</item>
+        <item>Role 5</item>
+    </string-array>
+    <string-array name="count_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

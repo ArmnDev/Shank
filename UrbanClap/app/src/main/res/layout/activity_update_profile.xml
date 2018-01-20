@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobiquel.urbanclap.SplashActivity">
+
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/updateProfile"
+            android:layout_width="match_parent"
+            android:text="SUBMIT"
+            android:layout_margin="20dp"
+            android:background="@drawable/rectangle_background_blue"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/bottomLayout"
+        android:layout_marginTop="20dp"
+
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/topLayout"
+            android:visibility="gone"
+            android:padding="20dp"
+            >
+            <RelativeLayout
+                android:id="@+id/imageLayout"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/circular_bak" >
+
+                    <ImageView
+                        android:id="@+id/profilePic"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_profile2" />
+                </RelativeLayout>
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/updateImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="70dp"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="visible"
+
+                    app:fabSize="mini" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress|textCapWords"
+            android:hint="Name *"
+            android:imeOptions="actionNext"
+            android:textSize="16sp"
+
+            />
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select City"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+
+            android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:background="@drawable/spinnerback"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+
+            />
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Location"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:id="@+id/serviceLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinnerback"
+
+                android:textSize="16sp"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/joinAs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+               android:hint="Join as"
+                android:textSize="16sp"
+                android:inputType="textEmailAddress"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/companyCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="textCapCharacters"
+                android:hint="Company Code"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/inviteCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="textCapCharacters"
+                android:hint="Invite Code"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:focusableInTouchMode="false"
+                android:hint="Date Of Birth"
+                android:textSize="16sp"
+                android:inputType="textEmailAddress"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/adharCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Adhar-Card Number *"
+                android:maxLength="12"
+                android:textSize="16sp"
+                android:inputType="number"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:hint="Email Address *"
+                android:textSize="16sp"
+                android:inputType="textEmailAddress"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/qualification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:hint="Qualification"
+                android:textSize="16sp"
+
+                android:inputType="textEmailAddress|textCapCharacters"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/permanentAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Permanent Address *"
+                android:textSize="16sp"
+                android:gravity="left|top"
+                android:inputType="textMultiLine|textCapWords"
+                android:minLines="4"
+                android:maxLines="6"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/presentAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Present Address *"
+                android:textSize="16sp"
+                android:gravity="left|top"
+                android:inputType="textMultiLine|textCapWords"
+                android:minLines="4"
+                android:maxLines="6"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+    <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+        android:id="@+id/progressBar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerInParent="true"
+        android:background="#EF3B3B"
+        android:visibility="gone" />
+</RelativeLayout>

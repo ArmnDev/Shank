@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobiquel.urbanclap.SplashActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/partrnerNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARTNER 1"
+                android:textSize="20sp"
+                android:layout_marginLeft="40dp"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:text="NAME"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="40dp"
+                    />
+                <EditText
+                    android:id="@+id/adharNo"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_background_2"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:imeOptions="actionNext"
+                    android:textSize="16sp"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginRight="20dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:text="MOBILE"
+                    android:layout_marginLeft="40dp"
+
+                    android:textSize="16sp"
+                    />
+                <EditText
+                    android:id="@+id/dateOfBirth"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_background_2"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:imeOptions="actionNext"
+                    android:textSize="16sp"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginRight="20dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:text="ADHAR NO."
+                    android:textSize="16sp"
+                    android:layout_marginLeft="40dp"
+                    />
+                <EditText
+                    android:id="@+id/voterId"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_background_2"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:imeOptions="actionDone"
+                    android:textSize="16sp"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginRight="20dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="toolbar_title">20sp</dimen>
+    <dimen name="width_wishlist_image">100dp</dimen>
+    <dimen name="height_wishlist_image">0dp</dimen>
+    <dimen name="width_home_grid_image">300dp</dimen>
+    <dimen name="height_home_grid_image">0dp</dimen>
+    <dimen name="width_home_pager_image">320dp</dimen>
+    <dimen name="height_home_pager_image">0dp</dimen>
+    <dimen name="width_news_feed_header">42dp</dimen>
+    <dimen name="height_news_feed_header">0dp</dimen>
+    <dimen name="width_designer_icon">60dp</dimen>
+    <dimen name="height_designer_icon">0dp</dimen>
+    <dimen name="height_zero">0dp</dimen>
+
+
+    <dimen name="width_zero">0.5dp</dimen>
+
+
+    <dimen name="width_horizontal_image">80dp</dimen>
+    <dimen name="marquee_text_size">14sp</dimen>
+    <dimen name="home_grid_height">160dp</dimen>
+    <dimen name="home_slider_height">200dp</dimen>
+    <dimen name="splash_title">22sp</dimen>
+    <dimen name="title">20sp</dimen>
+    <dimen name="text_size">12sp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="news_feed_image">500dp</dimen>
+    <dimen name="text_size_explore">14sp</dimen>
+    <dimen name="padding_explore">2dp</dimen>
+    <dimen name="edt_review_height">100dp</dimen>
+    <dimen name="feed_post_image_width">250dp</dimen>
+    <dimen name="feed_post_feed_image_width">200dp</dimen>
+    <dimen name="feed_post_image_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="width_line_divider">1dp</dimen>
+
+</resources>
