@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context="com.mobiquel.urbanclap.SplashActivity">
+    tools:context="com.mobiquel.shank.SplashActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_awesome_toolbar"
@@ -293,9 +293,29 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:id="@+id/notReferredTechnician"
-           android:text="Employee"
+           android:text="Employees"
            android:padding="10dp"
-           android:layout_marginTop="20dp"
+           android:layout_marginTop="10dp"
+           android:textColor="#FFFFFF"
+           android:background="@drawable/rectangle_background_blue"
+           />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/leaveRequests"
+           android:text="Leave Requests"
+           android:padding="10dp"
+           android:layout_marginTop="10dp"
+           android:textColor="#FFFFFF"
+           android:background="@drawable/rectangle_background_blue"
+           />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/joinRequests"
+           android:text="Join Requests"
+           android:padding="10dp"
+           android:layout_marginTop="10dp"
            android:textColor="#FFFFFF"
            android:background="@drawable/rectangle_background_blue"
            />

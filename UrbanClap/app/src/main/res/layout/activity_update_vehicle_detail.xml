@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mobiquel.urbanclap.SplashActivity">
+    tools:context="com.mobiquel.shank.SplashActivity">
 
     <LinearLayout
         android:id="@+id/bottomLayout"
@@ -61,7 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:hint="Vehicle Number *"
+                android:hint="Vehicle Number"
                 android:inputType="textCapCharacters"
                 android:textColorHint="#000000"
                 android:textSize="16sp" />
@@ -71,13 +71,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:hint="Driving License No. *"
+                android:hint="Driving License No."
                 android:inputType="textCapCharacters"
                 android:textColorHint="#000000"
-
                 android:textSize="16sp"
-
-
                 />
         </LinearLayout>
 

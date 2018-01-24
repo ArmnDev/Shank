@@ -3,100 +3,105 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#FFFFFF"
     android:layout_height="match_parent"
-    tools:context="com.mobiquel.urbanclap.SplashActivity">
+    android:background="#FFFFFF"
+    tools:context="com.mobiquel.shank.SplashActivity">
 
     <LinearLayout
         android:id="@+id/topLayout"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_margin="20dp"
-        >
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/products"
-            android:layout_width="match_parent"
-            android:background="@drawable/box"
-            android:textColor="#000000"
-            android:layout_marginRight="5dp"
-            android:layout_height="wrap_content"
-            android:text="PRODUCTS"
-            />
-            <View
-                android:id="@+id/viewProduct"
-                android:layout_width="match_parent"
-                android:layout_below="@id/products"
-                android:background="@color/bakground"
-                android:layout_height="2dp"/>
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/services"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/box"
-            android:layout_marginRight="5dp"
-            android:textColor="#000000"
-            android:layout_height="wrap_content"
-            android:text="SERVICES"
-            />
-            <View
-                android:id="@+id/viewServices"
-                android:layout_width="match_parent"
-                android:layout_below="@id/services"
-                android:visibility="gone"
+        android:orientation="vertical">
 
-                android:background="@color/bakground"
-                android:layout_height="2dp"/>
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/skills"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/box"
-            android:textColor="#000000"
             android:layout_height="wrap_content"
-            android:text="SKILLS"
-            />
-            <View
-                android:id="@+id/viewSkills"
-                android:layout_width="match_parent"
-                android:visibility="gone"
-                android:layout_below="@id/skills"
-                android:background="@color/bakground"
-                android:layout_height="2dp"/>
-        </RelativeLayout>
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/products"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/box"
+                    android:text="PRODUCTS"
+                    android:textColor="#000000" />
+
+                <View
+                    android:id="@+id/viewProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@id/products"
+                    android:background="@color/bakground" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/services"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/box"
+                    android:text="SERVICES"
+                    android:textColor="#000000" />
+
+                <View
+                    android:id="@+id/viewServices"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@id/services"
+
+                    android:background="@color/bakground"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/skills"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/box"
+                    android:text="SKILLS"
+                    android:textColor="#000000" />
+
+                <View
+                    android:id="@+id/viewSkills"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@id/skills"
+                    android:background="@color/bakground"
+                    android:visibility="gone" />
+            </RelativeLayout>
 
 
-    </LinearLayout>
+        </LinearLayout>
+
         <TextView
             android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Select Products!"
-            android:visibility="gone"
             android:layout_marginTop="10dp"
-            android:textSize="16sp"
+            android:text="Select Products!"
             android:textColor="#000000"
-            />
+            android:textSize="16sp"
+            android:visibility="gone" />
     </LinearLayout>
 
 
@@ -106,169 +111,173 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="#FFFFFF"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
 
         <Button
             android:id="@+id/submitProducts"
             android:layout_width="match_parent"
-            android:text="NEXT"
+            android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:background="@drawable/rectangle_background_blue"
-            android:textColor="#FFFFFF"
             android:gravity="center_horizontal|center_vertical"
-            android:layout_height="wrap_content" />
+            android:text="NEXT"
+            android:textColor="#FFFFFF" />
+
         <LinearLayout
             android:id="@+id/servicesLayout"
-            android:animateLayoutChanges="true"
             android:layout_width="match_parent"
-            android:visibility="gone"
             android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
             android:orientation="horizontal"
-            >
+            android:visibility="gone">
+
             <Button
                 android:id="@+id/editProducts"
                 android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="EDIT PRODUCTS"
+                android:layout_height="wrap_content"
                 android:layout_margin="20dp"
+                android:layout_weight="1"
                 android:background="@drawable/rectangle_background_blue"
-                android:textColor="#FFFFFF"
                 android:gravity="center_horizontal|center_vertical"
-                android:layout_height="wrap_content" />
+                android:text="EDIT PRODUCTS"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/submitServices"
                 android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="NEXT"
+                android:layout_height="wrap_content"
                 android:layout_margin="20dp"
+                android:layout_weight="1"
                 android:background="@drawable/rectangle_background_blue"
-                android:textColor="#FFFFFF"
                 android:gravity="center_horizontal|center_vertical"
-                android:layout_height="wrap_content" />
+                android:text="NEXT"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/skillsLayout"
-            android:visibility="gone"
-            android:animateLayoutChanges="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
             android:orientation="horizontal"
-            >
+            android:visibility="gone">
+
             <Button
                 android:id="@+id/editServices"
                 android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="EDIT SERVICES"
+                android:layout_height="wrap_content"
                 android:layout_margin="20dp"
+                android:layout_weight="1"
                 android:background="@drawable/rectangle_background_blue"
-                android:textColor="#FFFFFF"
                 android:gravity="center_horizontal|center_vertical"
-                android:layout_height="wrap_content" />
+                android:text="EDIT SERVICES"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/submitSkills"
                 android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="SUBMIT"
+                android:layout_height="wrap_content"
                 android:layout_margin="20dp"
+                android:layout_weight="1"
                 android:background="@drawable/rectangle_background_blue"
-                android:textColor="#FFFFFF"
                 android:gravity="center_horizontal|center_vertical"
-                android:layout_height="wrap_content" />
+                android:text="SUBMIT"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
     </LinearLayout>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/productList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/topLayout"
         android:layout_above="@id/bottomLayout"
+        android:layout_below="@id/topLayout"
+        android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp">
-    </android.support.v7.widget.RecyclerView>
+        android:layout_marginRight="20dp"></android.support.v7.widget.RecyclerView>
+
     <LinearLayout
         android:id="@+id/serviceListLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:visibility="gone"
-        android:layout_below="@id/topLayout"
         android:layout_above="@id/bottomLayout"
-        android:animateLayoutChanges="true"
+        android:layout_below="@id/topLayout"
+        android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
-        >
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:orientation="horizontal"
-            >
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="0.4"
+            android:orientation="horizontal">
 
-                android:layout_height="wrap_content" />
             <TextView
                 android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.4" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="0.2"
+                android:gravity="center"
                 android:text="INSTALL"
-                android:gravity="center"
                 android:textColor="#000000"
-                android:textSize="12sp"
-                android:layout_height="wrap_content" />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_weight="0.2"
                 android:gravity="center"
-                android:textSize="12sp"
-                android:layout_gravity="center"
                 android:text="SERVICE"
                 android:textColor="#000000"
-                android:layout_height="wrap_content" />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
-                android:layout_weight="0.2"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_weight="0.2"
                 android:gravity="center"
+                android:singleLine="true"
                 android:text="COMPLAINTS"
                 android:textColor="#000000"
-                android:textSize="12sp"
-                android:singleLine="true"
-                android:layout_height="wrap_content" />
+                android:textSize="12sp" />
         </LinearLayout>
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler_view"
-            android:scrollbars="vertical"
             android:layout_width="match_parent"
-            android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteY="0dp"
-            tools:layout_editor_absoluteX="8dp" />
+            android:layout_marginTop="20dp"
+            android:scrollbars="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
 
     </LinearLayout>
+
     <ListView
         android:id="@+id/skillList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/topLayout"
         android:layout_above="@id/bottomLayout"
-        android:animateLayoutChanges="true"
-        android:layout_marginLeft="20dp"
-        android:visibility="gone"
-        android:layout_marginRight="20dp"
+        android:layout_below="@id/topLayout"
         android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:animateLayoutChanges="true"
         android:divider="@android:color/transparent"
         android:dividerHeight="2dp"
-        android:listSelector="@android:color/transparent" />
-
-
-
+        android:listSelector="@android:color/transparent"
+        android:visibility="gone" />
 
 
     <com.gc.materialdesign.views.ProgressBarCircularIndeterminate

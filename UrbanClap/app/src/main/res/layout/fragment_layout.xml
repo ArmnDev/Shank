@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="#FFFFFF"
     android:layout_height="match_parent"
-    tools:context="com.mobiquel.urbanclap.SplashActivity">
+    tools:context="com.mobiquel.shank.SplashActivity">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"

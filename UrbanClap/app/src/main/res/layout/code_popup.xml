@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:padding="3dp"
-            android:text="NEXT"
+            android:text="VERIFY"
             android:layout_marginTop="5dp"
             android:layout_alignParentRight="true"
             android:layout_below="@id/enterCodeLayout"

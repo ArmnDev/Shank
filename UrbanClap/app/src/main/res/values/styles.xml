@@ -18,6 +18,7 @@
         <item name="colorControlActivated">#E74C3C</item>
         <item name="colorControlHighlight">#E74C3C</item>
     </style>
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>

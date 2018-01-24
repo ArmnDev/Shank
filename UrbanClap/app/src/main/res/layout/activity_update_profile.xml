@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mobiquel.urbanclap.SplashActivity">
+    tools:context="com.mobiquel.shank.SplashActivity">
 
 
     <LinearLayout
@@ -167,7 +167,7 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
-
+            android:visibility="gone"
             android:layout_height="wrap_content">
             <EditText
                 android:id="@+id/companyCode"
@@ -181,7 +181,7 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
-
+            android:visibility="gone"
             android:layout_height="wrap_content">
             <EditText
                 android:id="@+id/inviteCode"
@@ -211,6 +211,7 @@
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
+            android:visibility="gone"
             android:layout_marginTop="10dp"
 
             android:layout_height="wrap_content">
@@ -218,7 +219,7 @@
                 android:id="@+id/adharCard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Adhar-Card Number *"
+                android:hint="Aadhar Card Number *"
                 android:maxLength="12"
                 android:textSize="16sp"
                 android:inputType="number"
@@ -235,7 +236,7 @@
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-               android:hint="Email Address *"
+               android:hint="Email Address"
                 android:textSize="16sp"
                 android:inputType="textEmailAddress"
 

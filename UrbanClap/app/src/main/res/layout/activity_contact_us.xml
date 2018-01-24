@@ -6,7 +6,7 @@
     android:background="#FFFFFF"
     android:padding="10dp"
     android:layout_height="match_parent"
-    tools:context="com.mobiquel.urbanclap.SplashActivity">
+    tools:context="com.mobiquel.shank.SplashActivity">
 
     <org.sufficientlysecure.htmltextview.HtmlTextView
         android:id="@+id/contactUs"

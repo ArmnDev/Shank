@@ -1,10 +1,6 @@
 [
     {
-        "merged": "E:\\Software Development\\androidstudioworkspace\\UrbanClap\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\file.xml",
-        "source": "E:\\Software Development\\androidstudioworkspace\\UrbanClap\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\layout\\file.xml"
-    },
-    {
-        "merged": "C:\\Users\\Vibhor Gupta\\Music\\UC_19_JAN\\UrbanClap\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\file.xml",
-        "source": "C:\\Users\\Vibhor Gupta\\Music\\UC_19_JAN\\UrbanClap\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\layout\\file.xml"
+        "merged": "/home/landshark/Desktop/Studio_Project/UC_23_JAN/UrbanClap/aFileChooser/build/intermediates/res/merged/androidTest/debug/layout/file.xml",
+        "source": "/home/landshark/Desktop/Studio_Project/UC_23_JAN/UrbanClap/aFileChooser/build/intermediates/bundles/debug/res/layout/file.xml"
     }
 ]

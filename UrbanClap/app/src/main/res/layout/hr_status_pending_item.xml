@@ -56,6 +56,7 @@
                     android:textSize="16sp"
                     android:hint="Enter Code"
                     android:inputType="number"
+                    android:visibility="invisible"
                     android:singleLine="true"
                     android:focusableInTouchMode="false"
                     android:layout_height="wrap_content"

@@ -3,23 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="15dp" >
+    android:padding="15dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.4"
-            android:padding="10dp"
-            android:gravity="center"
-            android:background="@drawable/rectangle_background_2"
             android:layout_marginRight="10dp"
-            android:orientation="horizontal" >
+            android:layout_weight="0.4"
+            android:background="@drawable/rectangle_background_2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
 
             <TextView
                 android:id="@+id/title"
@@ -31,24 +31,26 @@
 
 
         </LinearLayout>
-<LinearLayout
-    android:layout_width="0dp"
-        android:gravity="center"
-    android:layout_weight="0.2"
-    android:layout_height="wrap_content">
-    <CheckBox
-        android:id="@+id/checkBoxInstall"
-        android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-        android:button="@drawable/checkbox_button_custom"
-        />
-</LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
-            android:gravity="center"
+            android:layout_height="wrap_content"
             android:layout_weight="0.2"
-            android:layout_height="wrap_content">
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/checkBoxInstall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkbox_button_custom" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center">
+
             <CheckBox
                 android:id="@+id/checkBoxService"
                 android:layout_width="wrap_content"
@@ -57,11 +59,13 @@
 
                 />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="0dp"
-            android:gravity="center"
+            android:layout_height="wrap_content"
             android:layout_weight="0.2"
-            android:layout_height="wrap_content">
+            android:gravity="center">
+
             <CheckBox
                 android:id="@+id/checkBoxComplaint"
                 android:layout_width="wrap_content"

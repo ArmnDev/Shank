@@ -1,34 +1,18 @@
 [
     {
-        "merged": "E:\\Software Development\\androidstudioworkspace\\UrbanClap\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_folder.png",
-        "source": "E:\\Software Development\\androidstudioworkspace\\UrbanClap\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_folder.png"
+        "merged": "/home/landshark/Desktop/Studio_Project/UC_23_JAN/UrbanClap/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_file.png",
+        "source": "/home/landshark/Desktop/Studio_Project/UC_23_JAN/UrbanClap/aFileChooser/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_file.png"
     },
     {
-        "merged": "E:\\Software Development\\androidstudioworkspace\\UrbanClap\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_file.png",
-        "source": "E:\\Software Development\\androidstudioworkspace\\UrbanClap\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_file.png"
+        "merged": "/home/landshark/Desktop/Studio_Project/UC_23_JAN/UrbanClap/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_chooser.png",
+        "source": "/home/landshark/Desktop/Studio_Project/UC_23_JAN/UrbanClap/aFileChooser/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_chooser.png"
     },
     {
-        "merged": "C:\\Users\\Vibhor Gupta\\Music\\UC_19_JAN\\UrbanClap\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_file.png",
-        "source": "C:\\Users\\Vibhor Gupta\\Music\\UC_19_JAN\\UrbanClap\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_file.png"
+        "merged": "/home/landshark/Desktop/Studio_Project/UC_23_JAN/UrbanClap/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_provider.png",
+        "source": "/home/landshark/Desktop/Studio_Project/UC_23_JAN/UrbanClap/aFileChooser/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_provider.png"
     },
     {
-        "merged": "C:\\Users\\Vibhor Gupta\\Music\\UC_19_JAN\\UrbanClap\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_folder.png",
-        "source": "C:\\Users\\Vibhor Gupta\\Music\\UC_19_JAN\\UrbanClap\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_folder.png"
-    },
-    {
-        "merged": "E:\\Software Development\\androidstudioworkspace\\UrbanClap\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_provider.png",
-        "source": "E:\\Software Development\\androidstudioworkspace\\UrbanClap\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_provider.png"
-    },
-    {
-        "merged": "C:\\Users\\Vibhor Gupta\\Music\\UC_19_JAN\\UrbanClap\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_chooser.png",
-        "source": "C:\\Users\\Vibhor Gupta\\Music\\UC_19_JAN\\UrbanClap\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_chooser.png"
-    },
-    {
-        "merged": "C:\\Users\\Vibhor Gupta\\Music\\UC_19_JAN\\UrbanClap\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_provider.png",
-        "source": "C:\\Users\\Vibhor Gupta\\Music\\UC_19_JAN\\UrbanClap\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_provider.png"
-    },
-    {
-        "merged": "E:\\Software Development\\androidstudioworkspace\\UrbanClap\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_chooser.png",
-        "source": "E:\\Software Development\\androidstudioworkspace\\UrbanClap\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_chooser.png"
+        "merged": "/home/landshark/Desktop/Studio_Project/UC_23_JAN/UrbanClap/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_folder.png",
+        "source": "/home/landshark/Desktop/Studio_Project/UC_23_JAN/UrbanClap/aFileChooser/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_folder.png"
     }
 ]
