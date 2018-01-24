@@ -47,7 +47,7 @@ public class SettingsTechnician extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        getSupportActionBar().setTitle("Settings");
+        getSupportActionBar().setTitle("Settings For Technician");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayShowCustomEnabled(true);
